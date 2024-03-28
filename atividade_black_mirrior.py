@@ -7,7 +7,7 @@
 # QUESTIONÁRIO ANTERIOR) E O
 # SISTEMA DEVERÁ DAR A RESPOSTA.
 
-pergunta = input(''' 
+pergunta =''' 
 =========================================================================================================
                  ESCOLHA UMA DAS PERGUNTAS DA SÉRIE PARA SABER A RESPOSTA:
  
@@ -26,25 +26,25 @@ pergunta = input('''
         [7] O EPISÓDIO TERMINA DE MANEIRA TÍPICA PARA A SÉRIE BLACK MIRROR? EXPLIQUE.        
                  
   INFORME A OPÇÃO ESCOLHIDA: 
-''')
+'''
 
 
 while True:
-    opcaoEscolhida = input(pergunta)   
-    if opcaoEscolhida == "1":
-        print("O nome da protagonista é Joan")
-    elif opcaoEscolhida == "2": 
-        print("Moana é quem dirige a vida de Joan")
-    elif opcaoEscolhida == "3": 
-        print("Streamberry é o serviço de streaming")
-    elif opcaoEscolhida == "4": 
-        print("Joan descobre no sofá de casa")
-    elif opcaoEscolhida == "5": 
-        print("Uma sensação de Desespero")
-    elif opcaoEscolhida == "6": 
-        print("Traição, trabalho e emoção são os temas explorados")
-    elif opcaoEscolhida == "7": 
-        print("Não")
-        break
-    else:
-        print("OPÇÃO INVÁLIDA") 
+     opcaoEscolhida = input(pergunta)   
+     if opcaoEscolhida == "1":
+         print("O nome da protagonista é Joan")
+     elif opcaoEscolhida == "2": 
+         print("Moana é quem dirige a vida de Joan")
+     elif opcaoEscolhida == "3": 
+         print("Streamberry é o serviço de streaming")
+     elif opcaoEscolhida == "4": 
+         print("Joan descobre no sofá de casa")
+     elif opcaoEscolhida == "5": 
+         print("Uma sensação de Desespero")
+     elif opcaoEscolhida == "6": 
+         print("Traição, trabalho e emoção são os temas explorados")
+     elif opcaoEscolhida == "7": 
+         print("Não")
+         break
+     else:
+         print("OPÇÃO INVÁLIDA") 
