@@ -30,21 +30,21 @@ pergunta ='''
 
 
 while True:
-     opcaoEscolhida = input(pergunta)   
+      opcaoEscolhida = input(pergunta)   
      if opcaoEscolhida == "1":
-         print("O nome da protagonista é Joan")
+         print("Resposta da Pergunta 1: O nome da protagonista é Joan")
      elif opcaoEscolhida == "2": 
-         print("Moana é quem dirige a vida de Joan")
+         print("Resposta da Pergunta 2: Moana é quem dirige a vida de Joan")
      elif opcaoEscolhida == "3": 
-         print("Streamberry é o serviço de streaming")
+         print("Resposta da Pergunta 3: Streamberry é o serviço de streaming")
      elif opcaoEscolhida == "4": 
-         print("Joan descobre no sofá de casa")
+         print("Resposta da Pergunta 4: Joan descobre no sofá de casa")
      elif opcaoEscolhida == "5": 
-         print("Uma sensação de Desespero")
+         print("Resposta da Pergunta 5: Uma sensação de Desespero")
      elif opcaoEscolhida == "6": 
-         print("Traição, trabalho e emoção são os temas explorados")
+         print("Resposta da Pergunta 6: Traição, trabalho e emoção são os temas explorados")
      elif opcaoEscolhida == "7": 
-         print("Não")
+         print("Resposta da Pergunta 7: Não")
          break
      else:
          print("OPÇÃO INVÁLIDA") 
